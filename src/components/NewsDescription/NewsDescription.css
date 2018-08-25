@@ -1,0 +1,17 @@
+.newsDescription-appear {
+  opacity: 0.01;
+}
+
+.newsDescription-appear.newsDescription-appear-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+.newsDescription-leave {
+  opacity: 1;
+}
+
+.newsDescription-leave.newsDescription-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
